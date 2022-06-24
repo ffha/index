@@ -19,7 +19,7 @@
 
   <div class="links">
     {{- if eq $type "404" -}}
-    <a class="link" href="{{- .Site.BaseURL | relURL -}}" title="Home" aria-label="Home">
+    <a class="link" href="{{- .Site.BaseURL | relURL -}}" title="Home" aria-label="Home" alt="avatar">
       {{- $.Scratch.Set "ICON" "home" -}}
       {{- partial "icon" $ -}}
     </a>
