@@ -5,9 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 {{- hugo.Generator -}}
 
-<link rel="preconnect" href="https://cdn.dsrkafuu.net" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 
 {{- $name := .Site.Data.meta.name -}}
 {{- $bio := .Site.Data.meta.bio -}}
@@ -49,7 +47,7 @@
 <link rel="stylesheet" href="{{- $css.RelPermalink -}}" />
 
 {{- if (getenv "HUGO_CN_MODE") -}}
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500&family=Noto+Sans+SC:wght@400;500" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Inter&family=Noto+Sans+SC" />
 {{- else -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500" />
 {{- end -}}
