@@ -7,7 +7,7 @@
   "license": "AGPL-3.0",
   "scripts": {
     "dev": "cross-env NODE_ENV=development env-cmd hugo server",
-    "build": "cross-env NODE_ENV=production env-cmd --silent hugo --cleanDestinationDir --minify"
+    "build": "cross-env NODE_ENV=production env-cmd --silent hugo --cleanDestinationDir"
   },
   "dependencies": {
     "dsr-design": "~3.3.0"
